@@ -29,9 +29,8 @@ class ImagesRepository extends EntityRepository
      */
     public function getMessagesCount()
     {
-        $queryBuilder = $this->createQueryBuilder('qb');
+        $queryBuilder = $this->createQueryBuilder('images');
         $queryBuilder->select('count(images.id)');
-        $queryBuilder->from('AppBundle:Images', 'images');
         $count = $queryBuilder->getQuery()->getSingleScalarResult();
         return $count;
     }
