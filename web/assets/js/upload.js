@@ -53,9 +53,6 @@ function ajaxUpload(fileList, comment)
             $("#imageTitle").val("");
             resetFileInput($("#fileInput"));
         })
-        .fail(function( jqXHR, textStatus, errorThrown ) {
-            $("#debug").html(jqXHR.responseText);
-        })
 }
 
 function uploadImage()
