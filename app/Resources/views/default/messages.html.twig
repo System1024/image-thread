@@ -1,0 +1,8 @@
+<ul>
+    {% for message in messages %}
+        <li>
+            <span class="imgtitle">{{ message.comment }}</span>
+            <img src="/img/{{ message.image }}">
+        </li>
+    {% endfor %}
+</ul>

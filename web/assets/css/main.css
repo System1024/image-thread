@@ -1,0 +1,53 @@
+.list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list {
+
+}
+
+.list li {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 3px;
+    width: 300px;
+    margin: 2px;
+    background: #9dcbe0;
+}
+
+.replybox, .topbar {
+    width: 300px;
+    border: 1px solid #000000;
+    margin: 2px;
+    text-align: center;
+    padding: 3px;
+    background: #9dcbe0;
+}
+.button {
+    display: inline-block;
+    background: #1d9314;
+    padding: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.button:hover {
+    background: #4b933e;
+}
+
+.imgtitle {
+    display: block;
+}
+#exportDiv {
+    display: none;
+    padding: 2px 0;
+}
+.counter {
+    display: inline-block;
+}
+#imageTitle {
+    width: 90%;
+    margin-bottom: 5px;
+}
